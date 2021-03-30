@@ -9,29 +9,60 @@
     <title>form Project</title>
 </head>
 <body> 
-    <div class="container">
-    <main>
+    <section id="pagecontact">
+        <div class="container">
+        <div class="b">   
+        <main id="cadre">
+            
+            
+            <section>
+                <form action="" methode="GET">
+                    <h3> FEEDBACK FORM </h3>
+                    <div>
+                        
+                        <input type="text" name="username" placeholder="Name" required/><br>
+                        <input type="email" name="email" placeholder="E-mail" required/><br>
+                        <input type="tel" name="phonenumber" placeholder="Phone (10 numbers only)" required pattern="^\d{9}$"/><br>
+                        <input type="text" name="message" placeholder="Message"/>
+                    </div>
+                    <img src="https://img.icons8.com/wired/64/000000/cloud-checked.png" id="upload"/>
+                    <input type="file" id="myFile" name="filename"/>
+                    <input type="submit" value=" SEND MESSAGE -"/>
+                </form>   
+            </section>    
+        </main> 
+        </div>
         <h1> Contact us </h1>
-        
-        <section>
-            <form>
-                <h3> FEEDBACK FORM </h3>
-                <div>
-                    <input type="text" name="username" placeholder="Name" required/>
-                    <input type="email" name="email" placeholder="E-mail" required/>
-                    <input type="tel" name="phonenumber" placeholder="Phone" required/>
-                    <input type="text" name="message" placeholder="Message"/>
-                </div>
-                <img src="https://img.icons8.com/wired/64/000000/cloud-checked.png"/>
-                <input type="file" id="myFile" name="filename"/>
-                <input type="submit" value=" SEND MESSAGE -"/>
-            </form>   
-        <section>    
-    </main> 
-    </div> 
-    <footer>
-    </footer>   
+        </div> 
+        <footer>
+            <div id="adress">
+                <h6>OUR ADRESSES </h6>
+                <ul>
+                    <li>123456 Moscow</li>
+                    <li>Lane dyuzeha</li>
+                    <li> Building 74 office 202</li>
+                </ul>
+            </div>
+            <div id="contacts">
+                <h6> OUR CONTACTS</h6>
+                <ul>
+                    <li>hello@name.com</li>
+                    <li>+79008007060</li>
+                </ul>
+            </div>
+            
+            <div id="follow">
+                   
+                        <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
+                        <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+                        <img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>
+                        <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/>
+            </div>
+            
 
+            
+        </footer>   
+    </section>
 </body>
 </html>
 
